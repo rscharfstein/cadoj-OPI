@@ -223,15 +223,15 @@ height: 100%;
 
 
 a {
-  color: #3498DB; /** this is links color **/
-  text-decoration: none;
+  color:  #0072CE; /** this is links color **/
+  text-decoration: underline;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 a:hover,
 a:focus {
-  color: #BDC3C7;
-  text-decoration: none;
+  color: #002D72;
+  text-decoration: underline;
 }
 a:focus {
   outline: none;
@@ -334,7 +334,7 @@ p {
   color: #34495E;
 }
 .lead {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   font-size: 28px;
   line-height: 1.46428571;
   font-weight: 300;
@@ -1890,7 +1890,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .navbar {
   font-size: 16px;
   min-height: 53px;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
   border: none;
   border-radius: 0px;
 }

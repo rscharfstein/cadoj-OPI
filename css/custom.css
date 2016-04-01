@@ -1,63 +1,9 @@
 /* ----------------------- Fonts ----------------------- */
 
-@font-face {
-font-family: CircularStd;
-font-weight: 400;
-font-style: normal;
-src: url("../fonts/circular-std/CircularStd-Book.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 500;
-font-style: normal;
-src: url("../fonts/circular-std/CircularStd-Medium.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: bold;
-font-style: normal;
-src: url("../fonts/circular-std/CircularStd-Bold.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 900;
-font-style: normal;
-src: url("../fonts/circular-std/CircularStd-Black.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 400;
-font-style: italic;
-src: url("../fonts/circular-std/CircularStd-BookItalic.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 500;
-font-style: italic;
-src: url("../fonts/circular-std/CircularStd-MediumItalic.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 700;
-font-style: italic;
-src: url("../fonts/circular-std/CircularStd-BoldItalic.otf") format("opentype");
-}
-
-@font-face {
-font-family: CircularStd;
-font-weight: 900;
-font-style: italic;
-src: url("../fonts/circular-std/CircularStd-BlackItalic.otf") format("opentype");
-}
 
 body {
-  font-family: "CircularStd", "Lato", Helvetica, Arial, sans-serif;
+/*  font-family: "CircularStd", "Lato", Helvetica, Arial, sans-serif;
+*/  font-family: 'Roboto', sans-serif;
 }
 
 span.glyphicon-chevron-down {
@@ -73,8 +19,8 @@ span.glyphicon-chevron-down {
 
 .starter-template {
   padding: 40px 15px;
-  text-align: center;
-}
+/*  text-align: center;
+*/}
 
 footer {
   padding-top: 50px;
@@ -103,15 +49,41 @@ small a{
 
 h2{
   color: #2C3E50;
+  font-weight: medium;
 }
+
+h2.hey-there-nyc {
+  color: white;
+  font-size: 2.25em;
+  font-weight: 500;
+}
+
+.container h2.hey-there-nyc {
+
+  margin-bottom: 0px;
+}
+
+p.lead {
+font-weight: 700;
+
+}
+
+
 h3{
   color: #2C3E50;
 }
 h4{
   color: #2C3E50;
+  font-size: 1.4em;
+  padding-top: 1.5em;
+  padding-bottom: 0; 
+  margin-bottom: .2em;
+  font-weight: medium;
 }
 p{
   color: #2C3E50;
+  padding: 0;
+  font-weight: light;
 }
 
 hr {
@@ -125,6 +97,8 @@ hr {
   margin-bottom: 10%;
 }
 
+
+
 /* ----------------------- Buttons ----------------------- */
 
 .btn-danger{
@@ -137,13 +111,20 @@ hr {
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
-  background-color: #EA547B;
+  background-color: #B22222;
 }
 
 /* ----------------------- Navbar ----------------------- */
 
 .navbar {
   min-height: 20px;
+  font-weight: medium;
+  text-decoration: none;
+}
+
+.navbar a {
+
+  text-decoration: none;
 }
 
 .navbar-inverse{
@@ -151,9 +132,9 @@ hr {
 }
 
 .navbar-inverse .img-responsive{
-  padding-top: 30px;
+  padding-top: 42px;
   padding-bottom: 20px;
-  max-height: 100px;
+  max-height: 164px;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -171,9 +152,11 @@ hr {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #EA2879;
+  color: #DC143C;
   background-color: white;
 }
+
+
 
 /* ----------------------- Panel ----------------------- */
 
@@ -222,7 +205,7 @@ hr {
     }
 
     .navbar .navbar-collapse {
-        text-align: center;
+        /*text-align: center;*/
     }
 }
 
@@ -279,4 +262,238 @@ hr {
 
 .modal.in .modal-dialog {
 
+}
+
+
+/* ----------------------- Navbar ----------------------- */
+
+
+
+.navbar-collapse {
+  box-shadow: none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar-nav a.first {
+  font-size: 16px;
+  padding: 15px 21px 15px 0px;
+  line-height: 23px;
+  font-weight: 700;
+}
+
+
+
+/*-------------- buttons -----------------*/
+
+
+.btn {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em 0.875em;
+  border: 0;
+  border-radius: 0.25em;
+  margin: 6px 0;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+  -webkit-appearance: none;
+}
+.lt-ie9 .btn {
+  font-weight: normal !important;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  background-color: #0072CE;
+  color: #ffffff;
+}
+.btn:hover,
+.btn.hover {
+  background-color: #33578E;
+}
+.btn:focus,
+.btn.focus {
+  background-color:   #002D72;
+  outline: 1px dotted   #796E65;
+  outline-offset: 1px;
+}
+.btn:active,
+.btn.active {
+  background-color: #0072CE;
+}
+button.btn::-moz-focus-inner,
+input.btn::-moz-focus-inner {
+  border: 0;
+}
+.btn + .btn {
+  margin-left: 0.375em;
+}
+.lt-ie8 {
+  background: url(null) fixed no-repeat;
+}
+.lt-ie8 button.btn,
+.lt-ie8 input.btn {
+  overflow: visible;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+/* topdoc
+  name: Secondary button
+  family: cf-buttons
+  notes:
+    - "Note that the .visited, .hover, .focus, .active classes are for
+       demonstration purposes only and should not be used in production."
+  patterns:
+  - name: Default state
+    markup: |
+      <a href="#" class="btn btn__secondary">Anchor Tag</a>
+      <button class="btn btn__secondary" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__secondary">
+  - name: Hovered state
+    markup: |
+      <a href="#" class="btn btn__secondary hover">Anchor Tag</a>
+      <button class="btn btn__secondary hover" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__secondary hover">
+  - name: Focused state
+    markup: |
+      <a href="#" class="btn btn__secondary focus">Anchor Tag</a>
+      <button class="btn btn__secondary focus" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__secondary focus">
+  - name: Active state
+    markup: |
+      <a href="#" class="btn btn__secondary active">Anchor Tag</a>
+      <button class="btn btn__secondary active" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__secondary active">
+  tags:
+  - cf-buttons
+*/
+.btn__secondary,
+.btn__secondary:link,
+.btn__secondary:visited {
+  background-color:   #43484E;
+  color: #ffffff;
+}
+.btn__secondary:hover,
+.btn__secondary.hover {
+  background-color:   #75787B;
+}
+.btn__secondary:focus,
+.btn__secondary.focus {
+  background-color:   #75787B;
+  outline-color: #43484E;
+}
+.btn__secondary:active,
+.btn__secondary.active {
+  background-color: #43484E;
+}
+/* topdoc
+  name: Destructive action button
+  family: cf-buttons
+  notes:
+    - "Note that the .visited, .hover, .focus, .active classes are for
+       demonstration purposes only and should not be used in production."
+  patterns:
+  - name: Default state
+    markup: |
+      <a href="#" class="btn btn__warning">Anchor Tag</a>
+      <button class="btn btn__warning" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__warning">
+  - name: Hovered state
+    markup: |
+      <a href="#" class="btn btn__warning hover">Anchor Tag</a>
+      <button class="btn btn__warning hover" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__warning hover">
+  - name: Focused state
+    markup: |
+      <a href="#" class="btn btn__warning focus">Anchor Tag</a>
+      <button class="btn btn__warning focus" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__warning focus">
+  - name: Active state
+    markup: |
+      <a href="#" class="btn btn__warning active">Anchor Tag</a>
+      <button class="btn btn__warning active" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__warning active">
+  tags:
+  - cf-buttons
+*/
+.btn__warning,
+.btn__warning:link,
+.btn__warning:visited {
+  background-color: #ea130b;
+  color: #ffffff;
+}
+.btn__warning:hover,
+.btn__warning.hover {
+  background-color: #b90f09;
+}
+.btn__warning:focus,
+.btn__warning.focus {
+  background-color: #b90f09;
+  outline-color: #ea130b;
+}
+.btn__warning:active,
+.btn__warning.active {
+  background-color: #a10d08;
+}
+/* topdoc
+  name: Disabled button
+  family: cf-buttons
+  notes:
+    - "Disabled buttons do not contain separate hover and active states since
+       they should not be interacted with."
+    - "Note that the .focus class is for demonstration purposes only and
+       should not be used in production."
+  patterns:
+  - name: Default/hovered/active state
+    markup: |
+      <a href="#" class="btn btn__disabled">Anchor Tag</a>
+      <button class="btn btn__disabled" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__disabled">
+      <button class="btn" disabled title="Test button">Button Tag w/ disabled attr</button>
+  - name: Focused state
+    markup: |
+      <a href="#" class="btn btn__disabled focus">Anchor Tag</a>
+      <button class="btn btn__disabled focus" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__disabled focus">
+      <button class="btn focus" disabled title="Test button">Button Tag w/ disabled attr</button>
+  tags:
+  - cf-buttons
+*/
+.btn__disabled,
+.btn[disabled],
+.btn__disabled:link,
+.btn[disabled]:link,
+.btn__disabled:visited,
+.btn[disabled]:visited,
+.btn__disabled:hover,
+.btn[disabled]:hover,
+.btn__disabled.hover,
+.btn[disabled].hover,
+.btn__disabled:focus,
+.btn[disabled]:focus,
+.btn__disabled.focus,
+.btn[disabled].focus,
+.btn__disabled:active,
+.btn[disabled]:active,
+.btn__disabled.active,
+.btn[disabled].active {
+  background-color: #e3e3e3;
+  color: #646464;
+  cursor: default;
+  cursor: not-allowed;
+}
+.btn__disabled:focus,
+.btn[disabled]:focus,
+.btn__disabled.focus,
+.btn[disabled].focus {
+  outline-color: #7d7d7d;
 }
