@@ -40,7 +40,6 @@ span.glyphicon-chevron-down {
 #home-image h2 {
   padding-top: 86px;
   padding-bottom: 86px;
-
 }
 
 
@@ -356,12 +355,6 @@ hr {
 }
 
 
-
-#home-image h2 {
-  padding-top: 36px;
-  padding-bottom: 36px;
-
-}
 
 }
 .modal.fade .modal-dialog {
@@ -1365,6 +1358,14 @@ legend {
     #home-image {
         background-size: auto 300px; 
     }
+
+    
+#home-image h2 {
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+}
+
 
     .navbar-nav {
         float: none!important;
