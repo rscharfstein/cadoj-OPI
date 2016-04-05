@@ -171,7 +171,15 @@ hr, hr.submit-separator {
   border-color: #bbb;
 }
 
+#mce-success-response {
+  max-width: 780px;
+  margin-top: 24px;
+  background: #FFECD1;
+  border: 1px solid #FFB149;
+  padding: 16px;
+  line-height: 24px;
 
+}
 
 
 input.text-field-input {
