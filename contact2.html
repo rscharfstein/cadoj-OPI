@@ -116,19 +116,18 @@
 
     <div class="col-md-4 text-fields">
 
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-  <label for="mce-AMEN">Name </label>
-  <input type="text" value="" name="AMEN" class="" id="mce-AMEN">
+  <label class="text-field-label" for="mce-AMEN">Name </label>
+  <input type="text" value="" name="AMEN" class="text-field-input" id="mce-AMEN">
 </div>
 <div class="mc-field-group">
-  <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+  <label class="text-field-label" for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
-  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+  <input type="email" value="" name="EMAIL" class="required email text-field-input" id="mce-EMAIL">
 </div>
 <div class="mc-field-group">
-  <label for="mce-FELLOWURL">URL that shows off your skills (optional) </label>
-  <input type="url" value="" name="FELLOWURL" class=" url" id="mce-FELLOWURL">
+  <label class="text-field-label" for="mce-FELLOWURL">URL that shows off your skills (optional) </label>
+  <input type="text" value="" name="FELLOWURL" class="text-field-input" id="mce-FELLOWURL">
 </div>
 
 
@@ -138,14 +137,9 @@
 
 
 
-
-<div class="mc-field-group">
-  <label for="mce-ADDTLNOTES">Additional notes </label>
-  <input type="text" value="" name="ADDTLNOTES" class="" id="mce-ADDTLNOTES">
-</div>
 <div class="mc-field-group input-group">
-    <strong>Primary skills </strong>
-    <ul><li><input type="checkbox" value="16" name="group[2533][16]" id="mce-group[2533]-2533-0"><label for="mce-group[2533]-2533-0">UX Design</label></li>
+    <p class="pseudo-label">Primary skills </p>
+    <ul class="form-list"><li><input type="checkbox" value="16" name="group[2533][16]" id="mce-group[2533]-2533-0"><label for="mce-group[2533]-2533-0">UX Design</label></li>
 <li><input type="checkbox" value="32" name="group[2533][32]" id="mce-group[2533]-2533-1"><label for="mce-group[2533]-2533-1">Visual Design</label></li>
 <li><input type="checkbox" value="64" name="group[2533][64]" id="mce-group[2533]-2533-2"><label for="mce-group[2533]-2533-2">Content Design</label></li>
 <li><input type="checkbox" value="128" name="group[2533][128]" id="mce-group[2533]-2533-3"><label for="mce-group[2533]-2533-3">Front-end Development</label></li>
@@ -164,10 +158,17 @@
 
 
 <div class="mc-field-group input-group">
-    <strong>When would you be available to start as a Fellow? </strong>
-  <li><input type="checkbox" value="4" name="group[2529][4]" id="mce-group[2529]-2529-2"><label for="mce-group[2529]-2529-2">A later class</label></li>
+    <p class="pseudo-label">When would you be available to start as a Fellow? </strong>
+  <ul><li><input type="checkbox" value="1" name="group[2529][1]" id="mce-group[2529]-2529-0"><label for="mce-group[2529]-2529-0">Early round (May/June 2016)</label></li>
+<li><input type="checkbox" value="2" name="group[2529][2]" id="mce-group[2529]-2529-1"><label for="mce-group[2529]-2529-1">First full class (September 6, 2016)</label></li>
+<li><input type="checkbox" value="4" name="group[2529][4]" id="mce-group[2529]-2529-2"><label for="mce-group[2529]-2529-2">A later class</label></li>
 <li><input type="checkbox" value="8" name="group[2529][8]" id="mce-group[2529]-2529-3"><label for="mce-group[2529]-2529-3">I just want to receive updates</label></li>
 </ul>
+</div>
+
+<div class="mc-field-group">
+  <label for="mce-ADDTLNOTES">Additional notes </label>
+  <input type="text" value="" name="ADDTLNOTES" class="" id="mce-ADDTLNOTES">
 </div>
 
 
@@ -176,6 +177,7 @@
 
 
   <div class="col-md-12">
+    <hr style="submit-separator">
 
 
   <div id="mce-responses" class="clear">
@@ -191,7 +193,7 @@
 <!--End mc_embed_signup-->
 
   </div>
- 
+
 
 
             </div> <!-- container -->
