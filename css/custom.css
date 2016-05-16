@@ -14,7 +14,7 @@ span.glyphicon-chevron-down {
 /*  ----------------------- Containers ----------------------- */
 
 .container-top{
-   background-color: #59616e;
+   background-color: #3d4b59;
    padding-top: -20px;
 }
 
@@ -45,7 +45,7 @@ span.glyphicon-chevron-down {
 
 footer {
   padding-top: 30px;
-  background-color: #59616e;
+  background-color: #3d4b59;
   color: white;
   font-style: bold;
 }
