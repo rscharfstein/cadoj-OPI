@@ -14,7 +14,7 @@ span.glyphicon-chevron-down {
 /*  ----------------------- Containers ----------------------- */
 
 .container-top{
-   background-color: #59616e;
+   background-color: #43484E;
    padding-top: -20px;
 }
 
@@ -24,7 +24,7 @@ span.glyphicon-chevron-down {
 */}
 
 #home-image {
-  background-image: url('../img/fellows-graphic-1.jpg'); 
+  background-image: url('../img/fellows-graphic-5.jpg'); 
   background-repeat: no-repeat; 
   background-size: 100% auto; 
   background-position: center; 
@@ -45,7 +45,7 @@ span.glyphicon-chevron-down {
 
 footer {
   padding-top: 30px;
-  background-color: #59616e;
+  background-color: #43484E;
   color: white;
   font-style: bold;
 }
