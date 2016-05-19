@@ -97,6 +97,11 @@ small a{
   color: white;
 }
 
+.fix-hover a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 h2{
   color: #2C3E50;
   font-weight: medium;
@@ -1391,5 +1396,7 @@ legend {
 
 
 } 
+
+
 
 
