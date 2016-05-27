@@ -157,6 +157,14 @@ h4{
   margin-bottom: .2em;
   font-weight: medium;
 }
+
+h4.event-name {
+  padding-bottom: 0;
+
+}
+
+
+
 p{
   color: #2C3E50;
   padding: 0;
