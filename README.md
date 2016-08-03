@@ -1,4 +1,4 @@
-#California Department of Justice Innovation Unit
+#California Department of Justice Office of Performance and Innovation
 
 
 The code and formatting of this site is forked from [City of Austin Design, Technology, and Innovation Fellows](https://cityofaustin.github.io/innovation-fellows/), who forked it from [NYC Tech Jobs](http://www.nyc.gov/techjobs).
@@ -11,4 +11,4 @@ The website is built on [Bootstrap](http://www.getbootstrap.com), an extremely e
 
 The City of Austin and NYC (as do we!) want you to use or modify this website for your city or government agency. If you're GitHub-savvy, you can [fork this repository](https://help.github.com/articles/fork-a-repo/) or [NYC's repo](https://github.com/CityOfNewYork/TechJobs) for your organization. If you just want to download the code as a ZIP file, click Download ZIP at the bottom of the right-hand navigation bar.
 
-Either way, shoot a note to dseliger@cto.nyc.gov, innovationfellows@austintexas.gov, and rebecca.scharfstein@doj.ca.gov.
+Either way, shoot a note to daveseliger@gmail.com, innovationfellows@austintexas.gov, and innovation@doj.ca.gov.
