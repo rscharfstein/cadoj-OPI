@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "My Protected Area"
-AuthUserFile C:\\Users\\Rebecca\\Dropbox\\CA DOJ\\innovation-fellows\\PasswordProtected.htpasswd
-Require valid-user

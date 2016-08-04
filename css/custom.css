@@ -24,7 +24,7 @@ span.glyphicon-chevron-down {
 */}
 
 #home-image {
-  background-image: url('../img/kamala-harris-graphic.jpg'); 
+  background-image: url('../img/makeadifference.png'); 
   background-repeat: no-repeat; 
   background-size: 100% auto; 
   background-position: center; 
@@ -137,6 +137,13 @@ font-weight: 700;
   font-size: 30px;
 }
 
+.dti-home-page h5 {
+  padding-top: 18px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+  font-size: 30px;
+}
+
 .dti-contact-form p.sign-up-terms {
   padding-bottom: 36px;
   padding-top: 8px;
@@ -163,7 +170,19 @@ h4.event-name {
 
 }
 
+h5{
+  color: #D6A300;
+  font-size: 1.4em;
+  padding-top: 1.5em;
+  padding-bottom: .4em; 
+  margin-bottom: .2em;
+  font-weight: medium;
+}
 
+h5.mission {
+  padding-bottom: 0;
+
+}
 
 p{
   color: #2C3E50;
