@@ -11,4 +11,4 @@ The website is built on [Bootstrap](http://www.getbootstrap.com), an extremely e
 
 The City of Austin and NYC (as do we!) want you to use or modify this website for your city or government agency. If you're GitHub-savvy, you can [fork this repository](https://help.github.com/articles/fork-a-repo/) or [NYC's repo](https://github.com/CityOfNewYork/TechJobs) for your organization. If you just want to download the code as a ZIP file, click Download ZIP at the bottom of the right-hand navigation bar.
 
-Either way, shoot a note to daveseliger@gmail.com, innovationfellows@austintexas.gov, and rebecca.scharfstein@gmail.com.
+Either way, shoot a note to daveseliger@gmail.com, innovationfellows@austintexas.gov, and innovation@doj.ca.gov.
