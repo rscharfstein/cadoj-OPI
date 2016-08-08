@@ -23,7 +23,7 @@ span.glyphicon-chevron-down {
 /*  text-align: center;
 */}
 
-#home-image {
+<#home-image {
   background-image: url('../img/makeadifference.png'); 
   background-repeat: no-repeat; 
   background-size: 100% auto; 
@@ -31,6 +31,7 @@ span.glyphicon-chevron-down {
   padding-top: 3%; 
   padding-bottom: 10%;
 }
+
 
 #home-image .home-image-text {
   vertical-align: center;
@@ -107,13 +108,13 @@ h2{
   font-weight: medium;
 }
 
-h2.hey-there-nyc {
+h2.intro {
   color: white;
   font-size: 2.6em;
   font-weight: 500;
 }
 
-.container h2.hey-there-nyc {
+.container h2.intro {
 
   margin-bottom: 0px;
 }
