@@ -23,7 +23,7 @@ span.glyphicon-chevron-down {
 /*  text-align: center;
 */}
 
-<#home-image {
+#home-image {
   background-image: url('../img/makeadifference.png'); 
   background-repeat: no-repeat; 
   background-size: 100% auto; 
@@ -31,7 +31,6 @@ span.glyphicon-chevron-down {
   padding-top: 3%; 
   padding-bottom: 10%;
 }
-
 
 #home-image .home-image-text {
   vertical-align: center;
@@ -108,13 +107,13 @@ h2{
   font-weight: medium;
 }
 
-h2.intro {
+h2.hey-there-nyc {
   color: white;
   font-size: 2.6em;
   font-weight: 500;
 }
 
-.container h2.intro {
+.container h2.hey-there-nyc {
 
   margin-bottom: 0px;
 }
@@ -132,13 +131,6 @@ font-weight: 700;
 }
 
 .dti-contact-form h4 {
-  padding-top: 18px;
-  padding-left: 15px;
-  padding-bottom: 0px;
-  font-size: 30px;
-}
-
-.dti-home-page h5 {
   padding-top: 18px;
   padding-left: 15px;
   padding-bottom: 0px;
@@ -171,19 +163,7 @@ h4.event-name {
 
 }
 
-h5{
-  color: #D6A300;
-  font-size: 1.4em;
-  padding-top: 1.5em;
-  padding-bottom: .4em; 
-  margin-bottom: .2em;
-  font-weight: medium;
-}
 
-h5.mission {
-  padding-bottom: 0;
-
-}
 
 p{
   color: #2C3E50;
@@ -1424,7 +1404,6 @@ legend {
 
 
 } 
-
 
 
 
