@@ -427,6 +427,7 @@ hr {
   -webkit-transition: background-color 0.1s;
   transition: background-color 0.1s;
   -webkit-appearance: none;
+  white-space: normal;
 }
 .lt-ie9 .btn {
   font-weight: normal !important;
