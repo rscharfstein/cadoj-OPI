@@ -1412,7 +1412,7 @@ legend {
 
 
 
-
+/*
 
     .accordion-caret .accordion-toggle:hover {
         text-decoration: none;
@@ -1432,4 +1432,4 @@ legend {
     .accordion-caret .accordion-toggle.collapsed:before {
         content: "▸";
         margin-right: 0px;
-    }
+    }*/
