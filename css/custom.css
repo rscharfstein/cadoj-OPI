@@ -23,6 +23,7 @@ span.glyphicon-chevron-down {
 /*  text-align: center;
 */}
 
+/*
 #home-image {
   background-image: url('../img/catalyzechange.png'); 
   background-repeat: no-repeat; 
@@ -40,7 +41,7 @@ span.glyphicon-chevron-down {
 #home-image h2 {
   padding-top: 86px;
   padding-bottom: 86px;
-}
+}*/
 
 
 footer {
@@ -108,7 +109,7 @@ h2{
 }
 
 h2.hey-there {
-  color: white;
+  color: #2C3E50;
   font-size: 2.6em;
   font-weight: 500;
 }
@@ -148,6 +149,7 @@ font-weight: 700;
 
 h3{
   color: #2C3E50;
+  margin: 0px 0px 0px -15px;
 }
 h4{
   color: #2C3E50;
@@ -156,6 +158,7 @@ h4{
   padding-bottom: .4em; 
   margin-bottom: .2em;
   font-weight: medium;
+  margin: 0px 0px 0px -15px;
 }
 
 h4.event-name {
@@ -169,6 +172,7 @@ p{
   color: #2C3E50;
   padding: 0;
   font-weight: light;
+  margin: 0px 0px 0px -15px;
 }
 
 label, p.pseudo-label {
