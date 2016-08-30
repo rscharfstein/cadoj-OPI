@@ -1437,3 +1437,25 @@ legend {
         content: "▸";
         margin-right: 0px;
     }
+
+
+/*--------------Blockquote---------------*/
+blockquote {
+  background: #white;
+  border-left: 3px solid #2C3E50;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #2C3E50;
+  content: open-quote;
+  font-size: 6em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
