@@ -695,6 +695,14 @@ a {
 }
 
 /**
+  * Remove underline from link.
+  */
+
+a:link {
+  text-decoration: none;
+}
+
+/**
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
